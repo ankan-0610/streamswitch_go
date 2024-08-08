@@ -4,9 +4,13 @@ This project demonstrates a text streaming service where text is dynamically str
 The Go server dynamically switches between providers based on response delays, ensuring that the streaming continues smoothly even if one of the providers is slow or unresponsive.
 
 ## Prerequisites
+
 Go: Ensure that Go is installed on your system. 
+
 Python 3.x: Ensure that Python 3 is installed. 
+
 Flask: The Python web framework
+
 ```bash
 pip install Flask
 ```
