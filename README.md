@@ -3,7 +3,6 @@
 This project demonstrates a text streaming service where text is dynamically streamed from multiple providers (implemented in Python) using a backend server written in Go.
 The Go server dynamically switches between providers based on response delays, ensuring that the streaming continues smoothly even if one of the providers is slow or unresponsive.
 
-
 ## Setup Instructions
 Run the following command
 
@@ -33,3 +32,6 @@ If the delay exceeds this threshold, the server switches to the next provider.
 
 ## Contributing
 We welcome suggestions for new features or improvements. If you have an idea, please open an issue to discuss it.
+
+## Acknowledgement:
+I would like to thank Alle and their team for providing this opportunity to exercise my Golang skills.
